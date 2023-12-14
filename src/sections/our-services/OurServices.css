@@ -1,0 +1,51 @@
+.our-services-section {
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.our-services-section .image-container img {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.our-services-section .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.our-services-section .text-container h2 {
+    margin-bottom: 24px;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+.our-services-section .text-container p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+.benefit-list {
+    width: 85%;
+    list-style: none;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.benefit-list li {
+    background: url("/check-list.svg") left center no-repeat;
+    padding: 8px 0 8px 40px;
+}
+
+@media screen and (min-width: 720px) {
+    .our-services-section {
+        padding: 50px 0;
+    }
+
+    .our-services-section .image-container img {
+        margin-bottom: 0;
+        padding: 0;
+    }
+}

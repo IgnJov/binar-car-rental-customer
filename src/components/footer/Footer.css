@@ -1,0 +1,21 @@
+footer {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 60px 0;
+}
+
+footer .sub-menu-container,
+.social-media-icon-container {
+    margin-bottom: 16px;
+}
+
+footer .sub-menu-container {
+    display: grid;
+    gap: 16px;
+}
+
+@media screen and (min-width: 720px) {
+    footer {
+        padding: 100px 0;
+    }
+}

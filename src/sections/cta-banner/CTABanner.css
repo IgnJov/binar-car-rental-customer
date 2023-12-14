@@ -1,0 +1,45 @@
+.cta-banner-section {
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.cta-banner-section .text-container {
+    background-color: #0d28a6;
+    border-radius: 13px;
+    color: white;
+    text-align: center;
+    padding: 64px 60px;
+}
+
+.cta-banner-section h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.cta-banner-section p {
+    max-width: 468px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.cta-banner-section button {
+    border-radius: 2px;
+    background-color: #5cb85f;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+}
+
+@media screen and (min-width: 720px) {
+    .cta-banner-section {
+        padding: 50px 0;
+    }
+
+    .cta-banner-section p {
+        margin-bottom: 52px;
+    }
+}

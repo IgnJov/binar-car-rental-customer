@@ -1,0 +1,55 @@
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.register .left {
+  width: 50%;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.register .right {
+  flex: 1;
+}
+
+.register .right img {
+  width: 100%;
+}
+
+.register .left .formtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 70%;
+}
+
+button {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.register .left .formtitle .errorMessage {
+  width: 100%;
+  color: red;
+  background-color: rgba(208, 12, 26, 0.1);
+  border-radius: 5px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .register .right {
+    display: none;
+  }
+}

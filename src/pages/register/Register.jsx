@@ -25,8 +25,11 @@ const Register = () => {
         console.log(response);
       })
       .catch((error) => {
-        setErrorMessage(error.response.data.message);
-        console.log(error);
+        if (error.response.data.message) {
+          setErrorMessage(error.response.data.message);
+          console.log(error);
+        }
+        setErrorMessage("form tidak valid");
       });
   };
 
@@ -50,6 +53,7 @@ const Register = () => {
               <Form.Label>Email</Form.Label>
               <Form.Control
                 value={email}
+                required
                 onChange={(e) => setEmail(e.target.value)}
                 type="email"
                 placeholder="Enter Email"
@@ -59,6 +63,7 @@ const Register = () => {
               <Form.Label>Password</Form.Label>
               <Form.Control
                 value={password}
+                required
                 onChange={(e) => setPassword(e.target.value)}
                 type="password"
                 placeholder="Enter Password"

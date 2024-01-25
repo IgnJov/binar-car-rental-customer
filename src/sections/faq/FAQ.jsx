@@ -49,7 +49,7 @@ function FAQ() {
                                     </span>
                                     <button
                                         onClick={handleToggleFAQ}
-                                        className="toggle-button"
+                                        className="toggle-button ms-auto"
                                     >
                                         <img
                                             src="./icons/arrow-down.svg"

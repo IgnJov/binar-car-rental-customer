@@ -1,0 +1,269 @@
+/* your-style.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primal-box {
+    flex-direction: row;
+}
+
+.horizontal-box {
+    display: flex;
+    flex-direction: column; /* Change to column to stack boxes vertically */
+    align-items: flex-start; /* Align items to the start (left side) */
+    margin: 20px 0;
+}
+
+.vertical-box {
+    margin: 10px 0; /* Adjusted margin to add space between boxes */
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 600px; /* Set the width for the vertical-box */
+    position: relative; /* Add position: relative; */
+}
+
+.payment-deadline-box,
+.deadline-box,
+.timer-box,
+.vertical-box > div > p {
+    margin: 5px 0;
+}
+
+.vertical-box {
+    max-width: 800px;
+    margin: 20px 10px; /* Adjust margin to align with the other boxes */
+    padding: 20px;
+    background-color: #fff;
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-color: #fff;
+}
+
+.payment-deadline-box {
+    margin-top: -20px;
+    width: 600px;
+    padding: 10px;
+}
+
+.timer-box {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100px;
+    margin-left: 450px;
+    margin-top: -65px;
+}
+
+.timer-box p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.timer-box span {
+    margin: 0 5px;
+}
+
+.timer-box span:not(:last-child) {
+    margin-right: 10px;
+}
+
+.deadline-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    background-color: #FFFFFF; /* Set the background color */
+    padding: 10px; /* Add padding for better appearance */
+    margin-bottom: 5px; /* Add margin to separate boxes */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 15px;
+}
+
+.box-text {
+    margin-top: -4px;
+    margin-left: 20px;
+}
+
+/* Add a new class for the opacity box */
+.opacity-box {
+    background-color: #000000; /* Set the background color */
+    opacity: 0.6; /* Set the opacity */
+    height: 30px; /* Set the height of the opacity box */
+    margin: 10px 0; /* Add margin to separate it from other elements */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px 10px; /* Adjust margin to align with the other boxes */
+    padding: 20px;
+    background-color: #fff;
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.placeholder-box {
+    background-color: #FFFFFF; /* Set the background color */
+    padding: 10px; /* Add padding for better appearance */
+    margin-bottom: 5px; /* Add margin to separate boxes */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align content to the center */
+}
+
+.placeholder-box span {
+    font-size: 16px; /* Adjust font size as needed */
+    margin: 0 10px; /* Add margin around the number */
+}
+
+.placeholder-box img {
+    width: 20px; /* Set the width of the image */
+    height: 20px; /* Set the height of the image */
+    margin-left: 400px; /* Add margin to the right of the image */
+}
+
+.total-box {
+    background-color: #FFFFFF; /* Set the background color */
+    padding: 10px; /* Add padding for better appearance */
+    margin-bottom: 5px; /* Add margin to separate boxes */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align content evenly */
+}
+
+.total-box span {
+    font-size: 16px; /* Adjust font size as needed */
+    margin: 0 10px; /* Add margin around the number */
+}
+
+.total-box img {
+    width: 20px; /* Set the width of the image */
+    height: 20px; /* Set the height of the image */
+}
+
+.total-box .copy-icon {
+    cursor: pointer; /* Add pointer cursor to the copy icon */
+}
+
+.copy:hover {
+    cursor: pointer;
+}
+
+.copy:active {
+    opacity: 0.5;
+}
+
+.confirm {
+    background-color: #FFFFFF;
+    font-size: 13px;
+    padding: 15px;
+    margin-top: 296px;
+    margin-right: 300px;
+    border: 1px solid #ccc;
+    border-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 400px;
+    height: 150px;
+    max-height: 80vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+}
+
+.confirm p {
+    margin-bottom: 10px;
+}
+
+.confirm button {
+    background-color: #4CAF50;
+    margin-top: 40px;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 380px;
+}
+
+.box-expanded {
+    background-color: #FFFFFF;
+    font-size: 13px;
+    padding: 15px;
+    margin-top: 296px;
+    margin-right: 300px;
+    border: 1px solid #ccc;
+    border-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 400px;
+    height: 450px;
+    max-height: 80vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+}
+
+.box-expanded p {
+    margin-bottom: 10px;
+}
+
+.upload-button {
+    background-color: #4CAF50;
+    margin-top: 80px;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 380px;
+} 
+
+.upload-button:hover {
+    opacity: 0.8;
+}
+
+.upload-button:active {
+    opacity: 0.5;
+}
+  

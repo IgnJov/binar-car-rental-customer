@@ -1,0 +1,83 @@
+.primary-navbar{
+    background-color: #F1F3FF;
+    border: none;
+    height: 500px;
+    overflow: hidden;
+
+    z-index: 1;
+}
+
+.z{
+    z-index: 0;
+}
+
+.mid-navbar{
+    width: 568px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 80px;
+}
+
+.p1{
+    font-size: 36px;
+}
+
+.p2{
+    font-size: 14px;
+    font-weight: 500;
+    font-weight: bold;
+    width: 470px;
+}
+
+.btn{
+    width: 140px;
+    background-color: #5CB85F;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 12px 8px;
+    border: none;
+    z-index: 50;
+
+    font-weight: bold;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:active{
+    opacity: 0.5;
+}
+
+.container{
+    position: relative;
+    height: calc(50vh - 50px);
+    display: flex;
+}
+
+.carcontain{
+    background-color: #0D28A6;
+    border-radius: 10% 0 0 0;
+    height: 600px;
+    width: 720px;
+    position: absolute;
+    bottom: -90px;
+    right: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.carImg{
+    position: absolute;
+    bottom: 350px;
+    right: 0px;
+    height: auto;
+}
+
+.Topnavbar{
+    z-index: 1;
+}

@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.Payment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    height: 124px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  
+  .Payment-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    gap: 60px;
+    font-size: 12px;
+  }
+  
+  .Payment-1 label {
+    margin-bottom: 5px;
+  }
+
+  /* Add this style to your existing "style.css" or your stylesheet */
+.Payment-1 input {
+    margin-left: -4px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    border: none; /* Remove the border */
+    outline: none; /* Remove the default outline */
+  }
+  
+  .Payment-1 input::placeholder {
+    background-color: #FFFFFF; /* Optional: Add a placeholder color */
+  }
+  
+  .Payment-2 {
+    display: flex;
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line if there's not enough space */
+    justify-content: center; /* Center the boxes horizontally */
+    gap: 20px; /* Add some spacing between the boxes */
+  }
+  
+  .box-1 {
+    width: 555px;
+    height: 320px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Set the alpha channel to control transparency */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(1, 1, 1, 0.2);
+    padding: 10px;
+    text-align: left;
+    font-size: 12px;
+    margin: 20px 16px 20px 20px;
+  }
+  
+  .box-2 {
+    width: 405px;
+    height: 546px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Set the alpha channel to control transparency */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(1, 1, 1, 0.2);
+    padding: 10px;
+    text-align: left;
+    margin: 20px 20px 20px 0;
+  }
+  
+
+  
+  
+.box-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    flex-grow: 1; /* Allow each column to fill the remaining space evenly */
+}
+
+.rectangle-1 {
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    border-style: solid;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.rectangle-1 p:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.rectangle-1 p:last-child {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.checkmark-container {
+    display: flex;
+    justify-content: space-between; /* Spread items to both ends of the container */
+    align-items: center; /* Center items vertically */
+}
+
+.checkmark {
+    color: #4caf50; /* Green color for the checkmark */
+    font-size: 18px;
+    margin-left: 320px;
+}
+
+.box-2 {
+    font-size: 10px;
+}
+
+.box-2-1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box-2-2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .box-2-2 img {
+    margin-right: 10px; /* Add some margin to separate the image from the text */
+  }
+  
+  div.box-2-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  div.box-2-3 img {
+    margin-right: 180px; /* Adjust the margin as needed */
+    margin-top: -3px;
+  }
+
+  .box-2-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .price-details {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  
+  .details,
+  .total-price {
+    display: flex;
+    align-items: center;
+    margin-top: 5px; /* Adjust the margin as needed */
+  }
+  
+  .details p:first-child {
+    margin-right: 5px; /* Add margin between the first and second <p> */
+  }
+  
+  .total-price {
+    margin-left: auto; /* Move it to the right */
+    margin-top: -38px;
+  }
+
+  .box-2-5 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  .included-cost {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .itemin {
+    color: #5CB85F;
+    z-index: 100;
+  }
+  
+  .not-included-cost {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .bayar-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px; /* Add margin-top as needed */
+  }
+  
+  .bayar-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 14px;
+    align-items: center;
+    border-color: #5CB85F;
+    border-radius: 5px;
+    color: #F1F3FF;
+    background-color: #5CB85F;
+    border-style: solid;
+    width: 400px;
+    height: 36px;
+  }
+  
+  .bayar-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .bayar-btn:active {
+    opacity: 0.5;
+  }
+  .bayar-btn:disabled {
+    opacity: 0.5;
+  }
+  
+  
+  
+  
+  
+  

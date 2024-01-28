@@ -1,0 +1,154 @@
+/* Ticket.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 50px;
+  }
+  
+  .check-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #5cb85f;
+  }
+  
+  .check img {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .payment-success {
+    margin-top: 20px;
+    font-weight: 700;
+  }
+  
+  .payment-success-1 {
+    margin-top: 20px;
+    font-weight: 100;
+    opacity: 0.5;
+  }
+  
+  .invoice-box {
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 300px;
+    position: relative;
+  }
+  
+  .invoice-box div {
+    margin-bottom: 10px;
+  }
+  
+  .invoice-box-text {
+    text-align: left;
+  }
+  
+  .invoice-box-icon {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    left: 615px;
+    margin-bottom: 100px;
+    text-align: right;
+    border-style: solid;
+    border-color: #0D28A6;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0D28A6;
+    height: 35px;
+    width: 73px;
+  }
+  
+  .invoice-box-icon img {
+    width: 20px; /* Adjust the image size as needed */
+    height: auto;
+    margin-right: 5px; /* Adjust the spacing between the image and text */
+  }
+
+  .invoice-box-icon:hover {
+    cursor: pointer;
+  }
+
+  .invoice-box-icon:active {
+    opacity: 0.3;
+  }
+  
+  
+  .pdf-viewer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    background-color: #D0D0D0;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px; /* Adjust the margin-top value as needed */
+    height: 162px;
+    width: 557px;
+    gap: 10px;
+  }
+  
+  .pdf-viewer-box img {
+    width: 20px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .pdf-viewer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: -2px;
+    color: black;
+  }
+  
+  .invoice {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .download {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  

@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.secondary-navbar {
+  display: flex;
+  gap: 700px;
+  height: 266px;
+  background-color: #F1F3FF;
+  border: none;
+}
+
+.top-navbar {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  gap: 32px;
+  padding-top: 24px;
+  padding-right: 136px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.top-logo {
+  margin-left: 136px;
+  margin-top: 25px;
+  background-color: #0D28A6;
+  width: 100px;
+  height: 34px;
+}
+
+.top-logo:hover,
+.register-btn:hover {
+  opacity: 0.8;
+}
+
+.top-logo:active,
+.register-btn:active {
+  opacity: 0.5;
+}
+
+.register-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 14px;
+  border-color: #5CB85F;
+  border-radius: 5px;
+  color: #F1F3FF;
+  background-color: #5CB85F;
+  border-style: solid;
+  width: 80px;
+  height: 40px;
+}
+
+.left-arrow-container {
+  display: flex;
+  align-items: center;
+  margin-top: 133px;
+  margin-left: -1300px;
+}
+
+.left-arrow {
+  margin-right: 10px;
+  margin-top: -26px;
+}
+
+.left-arrow-text-container {
+  display: flex;
+  flex-direction: column;
+  margin: none;
+}
+
+.left-arrow-text {
+  font-size: 16px;
+  font-weight: 550;
+  margin-top: 0px;
+}
+
+.circle-1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #F1F3FF;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  border-color: #0D28A6;
+  border-style: solid;
+  margin-top: 136px;
+}
+
+.circle-1-text {
+  margin-top: 50px;
+  margin-left: -15px;
+}
+
+.metode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 97px;
+  gap: 20px;
+  font-size: 12px;
+}
+
+hr {
+  border: 1px solid #0D28A6;
+  width: 29px;
+  margin-top: 45px;
+}
+
+.circle-1-1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #0D28A6;
+  color: #F1F3FF;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  border: #0D28A6;
+  border-style: solid;
+  margin-top: 136px;
+}

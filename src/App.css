@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1180px;
+    overflow: hidden;
+}

@@ -1,0 +1,48 @@
+.filter-component .container {
+    max-width: 1047px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.filter-component .search-container {
+    background-color: white;
+}
+
+.filter-component .form-label,
+.filter-component .form-control,
+.filter-component .form-select {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.filter-component .submit-button {
+    border-radius: 2px;
+    background-color: #5cb85f;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+}
+
+.filter-component .edit-button {
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid #0d28a6;
+    color: #0d28a6;
+    padding: 8px 12px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    z-index: 0;
+}
+
+@media screen and (max-width: 719px) {
+}

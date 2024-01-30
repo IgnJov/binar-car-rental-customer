@@ -13,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Register from "./pages/register/Register.jsx";
 import Login from "./pages/login/Login.jsx";
+import LayoutAuth from "./pages/LayoutAuth.jsx";
 
 function App() {
   const router = createBrowserRouter([
@@ -29,13 +30,19 @@ function App() {
       path: "/detail/:id",
       element: <Detail />,
     },
+
     {
-      path: "/register",
-      element: <Register />,
-    },
-    {
-      path: "/login",
-      element: <Login />,
+      element: <LayoutAuth />,
+      children: [
+        {
+          path: "/login",
+          element: <Login />,
+        },
+        {
+          path: "/register",
+          element: <Register />,
+        },
+      ],
     },
   ]);
 

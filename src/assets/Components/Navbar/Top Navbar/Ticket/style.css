@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    line-height: inherit;
+    overflow-x: hidden;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.navbar{
+    display:flex;
+}
+.secondary-navbar{
+    display: flex;
+    gap: 700px;
+    height: 266px;
+
+    background-color: #F1F3FF;
+    border: none;
+    
+}
+
+.top-navbar{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    gap: 32px;
+    padding-top: 24px;
+    padding-right: 136px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.top-logo{
+    margin-left: 136px;
+    margin-top: 25px;
+    background-color: #0D28A6;
+    width: 100px;
+    height: 34px;
+}
+
+.top-logo:hover{
+    opacity: 0.8;
+}
+
+.top-logo:active{
+    opacity: 0.5;
+}
+
+.register-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 14px;
+
+    border-color: #5CB85F;
+    border-radius: 5px;
+    color: #F1F3FF;
+    background-color: #5CB85F;
+    border-style: solid;
+    width: 80px;
+    height: 40px;
+}
+
+.register-btn:hover{
+    opacity: 0.8;
+}
+
+.register-btn:active{
+    opacity: 0.5;
+}
+  
+.left-arrow-container {
+    display: flex;
+    align-items: center;
+    margin-top: 133px;
+    margin-left: -1300px;
+    width: 200px;
+  }
+  
+  .left-arrow {
+    font-size: 20px; /* Adjust the size as needed */
+    margin-right: 8px; /* Adjust the spacing between the arrow and text */
+  }
+  
+  .left-arrow-text {
+    margin-top: 17px; /* Remove default margin for the text */
+  }
+
+  .circle-1 {
+    display: inline-block;
+    width: 20px; /* Sesuaikan ukuran lingkaran */
+    height: 20px; /* Sesuaikan ukuran lingkaran */
+    background-color: #F1F3FF; /* Warna lingkaran */
+    color: black;
+    border-radius: 50%; /* Membuat lingkaran */
+    text-align: center;
+    line-height: 20px; /* Sesuaikan dengan tinggi lingkaran */
+    font-size: 12px; /* Sesuaikan ukuran font */
+    border-color: #0D28A6;
+    border-style: solid;
+
+    margin-top:136px;
+  }
+
+  .circle-1-text {
+    margin-top: 50px;
+    margin-left: -15px;
+  }
+
+  .metode{
+    display: flex;
+    margin-right: 100px;
+  }
+
+  hr{
+    border: 1px solid #0D28A6; /* Warna garis dan ketebalan */
+    width: 29px;
+    margin-top: 45px;
+  }
+  
+  .circle-1-1{
+    display: inline-block;
+    width: 20px; /* Sesuaikan ukuran lingkaran */
+    height: 20px; /* Sesuaikan ukuran lingkaran */
+    background-color: #0D28A6; /* Warna lingkaran */
+    color: #F1F3FF;
+    border-radius: 50%; /* Membuat lingkaran */
+    text-align: center;
+    line-height: 20px; /* Sesuaikan dengan tinggi lingkaran */
+    font-size: 12px; /* Sesuaikan ukuran font */
+    border: #0D28A6;
+    border-style: solid;
+
+    margin-top:136px;
+  }
+  

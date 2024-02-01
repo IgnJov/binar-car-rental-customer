@@ -1,0 +1,60 @@
+.footer-body{
+    position: relative;
+    bottom: 0;
+}
+
+.primary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.b1{
+    width: 216px
+}
+
+.b2{
+    font-weight: 400;
+}
+
+.b3p{
+    font-size: large;
+}
+
+.b4p{
+    font-size: large;
+}
+
+
+.icons{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fb:hover, .twt:hover, .mail:hover, .twc:hover, .ig:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.fb:active, .twt:active, .mail:active, .twc:active, .ig:active{
+    opacity: 0.5;
+}
+
+.fb, .ig, .twt, .mail, .twc{
+    background-color: #0D28A6;
+    justify-content: center;
+    border-radius: 20px;
+    width: 27px;
+    height: 29px;
+}
+
+.top-logo{
+    display: flex;
+    background-color: #0D28A6;
+    width: 100px;
+    height: 34px;
+}

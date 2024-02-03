@@ -41,7 +41,7 @@ const Register = () => {
             <div className="left">
                 <div className="formtitle">
                     <h1>BCR</h1>
-                    <h2>SignUp</h2>
+                    <h2>Sign Up</h2>
                     {errorMessage !== "" && (
                         <div className="errorMessage">
                             <span>{errorMessage} </span>
@@ -76,7 +76,7 @@ const Register = () => {
                             />
                         </Form.Group>
                         <Button type="submit" variant="primary">
-                            SignUp
+                            Sign Up
                         </Button>
                     </Form>
                     <span>

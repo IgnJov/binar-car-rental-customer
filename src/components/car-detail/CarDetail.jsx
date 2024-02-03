@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./CarDetail.css";
 import Axios from "axios";
 import { useNavigate } from "react-router";
-import "react-date-range/dist/styles.css";
-import "react-date-range/dist/theme/default.css";
+//import "react-date-range/dist/styles.css";
+//import "react-date-range/dist/theme/default.css";
 
-import DatePicker from "react-datepicker";
+//mport DatePicker from "react-datepicker";
 import { Button } from "react-bootstrap";
 
 function CarDetail({ carId }) {

@@ -1,0 +1,162 @@
+.card {
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 24px;
+  }
+  
+  .payment-flexbox {
+    display: flex;
+    gap: 32px;
+    margin: 40px 199px;
+  }
+  
+  .header-payment {
+    background-color: #f1f3ff;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding: 24px 0;
+  }
+  
+  .countdown-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .countdown-container h3 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  
+  .payment-flexbox h3 {
+    font-size: 14px;
+    font-weight: 700px;
+    margin: 0;
+  }
+  
+  .payment-flexbox p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .payment-flexbox > div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .transfer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .bank-account {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .bank-account h3 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .bank-account p {
+    font-size: 12px;
+  }
+  
+  .bank-account div:first-of-type {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .bank-account .bank-name {
+    padding: 6px 16px;
+    border-radius: 4px;
+    border: 1px solid #d0d0d0;
+  }
+  
+  .bank-container {
+    font-size: 12px;
+    width: -webkit-fill-available;
+  }
+  
+  .bank-container label {
+    display: block;
+  }
+  
+  .bank-container input {
+    width: inherit;
+    padding: 9px 12px;
+    border-radius: 2px;
+  }
+  
+  .transfer-instruction h3 {
+    padding-bottom: 24px;
+  }
+  
+  .instruction-option {
+    display: flex;
+  }
+  
+  .instruction-option a {
+    flex-grow: 1;
+    padding-bottom: 16px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .instruction-option a.active {
+    border-bottom: #5cb85f solid 2px;
+  }
+  
+  .instruction-list ul {
+    margin: 0;
+    font-size: 14px;
+  }
+  .confirmation {
+    min-width: 405px;
+    max-width: 415px;
+    height: fit-content;
+  }
+  
+  .confirmation > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .confirmation .preview-slip {
+    width: 296px;
+    height: 162px;
+    border-radius: 4px;
+    border: 1px dashed #d0d0d0;
+    background: #eee;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .confirmation button {
+    padding: 8px 12px;
+    border: transparent;
+    border-radius: 2px;
+    background: #5cb85f;
+    color: #fff;
+    font-weight: 700;
+    width: -webkit-fill-available;
+  }
+  
+  #title-upload {
+    padding-bottom: 8px;
+  }
+  

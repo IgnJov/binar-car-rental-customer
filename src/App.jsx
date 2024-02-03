@@ -14,6 +14,9 @@ import "./App.css";
 import Register from "./pages/register/Register.jsx";
 import Login from "./pages/login/Login.jsx";
 import LayoutAuth from "./pages/LayoutAuth.jsx";
+import Ticket from "./pages/ticket/ticket.jsx";
+import Payment from "./pages/payment/payment.jsx";
+import Order2 from "./pages/request/Order2.jsx";
 
 function App() {
   const router = createBrowserRouter([
@@ -30,7 +33,18 @@ function App() {
       path: "/detail/:id",
       element: <Detail />,
     },
-
+    {
+      path: "/order",
+      element: <Order2 />,
+    },
+    {
+      path: "/payment",
+      element: <Payment />,
+    },
+    {
+      path: "/ticket",
+      element: <Ticket />,
+    },
     {
       element: <LayoutAuth />,
       children: [

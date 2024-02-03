@@ -59,6 +59,7 @@ function CarDetail({ carId }) {
   }
   function handleClick() {
     if (token) {
+      navigate("/order")
     } else {
       navigate("/login");
     }

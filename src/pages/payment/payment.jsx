@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
-import Progress from "../../components/prog";
+import Progress from "../../components/Prog/index";
 import Bank from "./bank";
 import { CiImageOn } from "react-icons/ci";
 import { Statistic, notification, Spin } from "antd";

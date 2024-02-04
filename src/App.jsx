@@ -38,7 +38,7 @@ function App() {
             element: <Order2 />,
         },
         {
-            path: "/payment/:mobileName/:kategori/:totalPrice/:selectedBank",
+            path: "/payment",
             element: <Payment />,
         },
         {

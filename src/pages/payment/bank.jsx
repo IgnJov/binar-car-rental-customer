@@ -1,6 +1,8 @@
 import { useSelector } from "react-redux";
 import "./style.css";
-const Bank = () => {
+import { useEffect } from "react";
+const Bank = ({ totalPrice }) => {
+
   const { bank } = useSelector((state) => state.bank);
   const stepsList = [
     "Masukkan kartu ATM, lalu PIN",
@@ -25,7 +27,7 @@ const Bank = () => {
         </div>
         <div className="bank-container">
           <label>Total Bayar</label>
-          <input type="text" value="3500000"></input>
+          <input type="text" value={ totalPrice }></input>
         </div>
       </div>
       <div className="transfer-instruction card">

@@ -1,9 +1,9 @@
 import {
-  BrowserRouter,
-  Routes,
-  Route,
-  createBrowserRouter,
-  RouterProvider,
+    BrowserRouter,
+    Routes,
+    Route,
+    createBrowserRouter,
+    RouterProvider,
 } from "react-router-dom";
 import Landing from "./pages/landing/Landing.jsx";
 import Filter from "./pages/search/Search.jsx";
@@ -19,48 +19,48 @@ import Payment from "./pages/payment/payment.jsx";
 import Order2 from "./pages/request/Order2.jsx";
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Landing />,
-      errorElement: <Error />,
-    },
-    {
-      path: "/search",
-      element: <Filter />,
-    },
-    {
-      path: "/detail/:id",
-      element: <Detail />,
-    },
-    {
-      path: "/order",
-      element: <Order2 />,
-    },
-    {
-      path: "/payment",
-      element: <Payment />,
-    },
-    {
-      path: "/ticket",
-      element: <Ticket />,
-    },
-    {
-      element: <LayoutAuth />,
-      children: [
+    const router = createBrowserRouter([
         {
-          path: "/login",
-          element: <Login />,
+            path: "/",
+            element: <Landing />,
+            errorElement: <Error />,
         },
         {
-          path: "/register",
-          element: <Register />,
+            path: "/search",
+            element: <Filter />,
         },
-      ],
-    },
-  ]);
+        {
+            path: "/detail/:id",
+            element: <Detail />,
+        },
+        {
+            path: "/order",
+            element: <Order2 />,
+        },
+        {
+            path: "/payment/:mobileName/:kategori/:totalPrice/:selectedBank",
+            element: <Payment />,
+        },
+        {
+            path: "/ticket",
+            element: <Ticket />,
+        },
+        {
+            element: <LayoutAuth />,
+            children: [
+                {
+                    path: "/login",
+                    element: <Login />,
+                },
+                {
+                    path: "/register",
+                    element: <Register />,
+                },
+            ],
+        },
+    ]);
 
-  return <RouterProvider router={router} />;
+    return <RouterProvider router={router} />;
 }
 
 export default App;

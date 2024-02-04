@@ -115,7 +115,7 @@ const Order1 = () => {
     const handlePaymentClick = () => {
         if (isBankSelected) {
             navigate(
-                `/Payment/${mobilName}/${kategori}/${totalPrice}/${selectedBank}`
+                `/payment/${mobilName}/${kategori}/${totalPrice}/${totalPrice}/${selectedBank}`
             );
         } else {
             alert("Pilih bank terlebih dahulu untuk melanjutkan pembayaran.");

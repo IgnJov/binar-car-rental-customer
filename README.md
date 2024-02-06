@@ -7,7 +7,7 @@ Welcome to the Binar Car Rental web application, a cutting-edge project develope
 - [Technologies Used](#technologies-used)
 - [Team Members](#team-members)
 - [How to Run](#how-to-run)
-- [Live Preview)(#live-preview)
+- [Live Preview](#live-preview)
 
 ## Features
 

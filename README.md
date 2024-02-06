@@ -48,3 +48,6 @@ Follow these steps to run the Binar Car Rental application locally:
 3. Install dependencies: `npm install`
 4. Start the application: `npm start dev`
 5. Open your browser and visit [http://localhost:3000](http://localhost:3000)
+
+## Live Preview
+Deployed on Netlify: https://bcr-customer.netlify.app/
